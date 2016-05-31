@@ -3,6 +3,7 @@ package com.imooc;
 public class Dog2 extends Animal2 {
 	@Override
 	public void eat() {
+
 		System.out.println("¹·ÊÇ³ÔÈâµÄ");
 	}
 

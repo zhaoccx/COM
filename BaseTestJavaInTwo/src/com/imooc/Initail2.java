@@ -6,7 +6,6 @@ public class Initail2 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		 * Animal obj1 = new Animal(); Animal obj2 = new Dog();//父类的引用是可以指向子类对象的
 		 * Animal obj3 = new Cat(); //Dog obj3 = new Animal();//错 obj1.eat();

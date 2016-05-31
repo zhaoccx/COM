@@ -26,6 +26,7 @@ public class Telphone {
 	}
 
 	public Telphone() {
+
 		System.out.println("构造方法执行了!");
 	}
 

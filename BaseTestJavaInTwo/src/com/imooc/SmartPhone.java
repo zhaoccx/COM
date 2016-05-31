@@ -4,7 +4,6 @@ public class SmartPhone extends Telphone3 implements IPlayGame {
 
 	@Override
 	public void call() {
-		// TODO Auto-generated method stub
 		System.out.println("通过语音打电话");
 	}
 

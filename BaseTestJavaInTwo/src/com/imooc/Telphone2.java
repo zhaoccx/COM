@@ -35,6 +35,7 @@ public class Telphone2 {
 	}
 
 	public Telphone2() {
+
 		System.out.println("com.imooc.Telphone 无参的构造方法执行了!");
 	}
 

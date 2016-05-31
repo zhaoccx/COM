@@ -6,7 +6,6 @@ public class Initail3 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Telphone3 tel1 = new CellPhone();
 		tel1.call();
 		tel1.message();
