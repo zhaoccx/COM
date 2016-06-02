@@ -75,13 +75,13 @@ public class Items {
 
 	@Override
 	public int hashCode() {
-		// TODO Auto-generated method stub
+		
 		return this.getId() + this.getName().hashCode();
 	}
 
 	@Override
 	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
+		
 		if (this == obj) {
 			return true;
 		}

@@ -75,7 +75,7 @@ public class SAXParserHandler extends DefaultHandler {
 
 	@Override
 	public void characters(char[] ch, int start, int length) throws SAXException {
-		// TODO Auto-generated method stub
+		
 		super.characters(ch, start, length);
 		String temp = new String(ch, start, length);
 		if (!temp.trim().equals("")) {

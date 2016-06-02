@@ -28,7 +28,7 @@ public class ClassDemo1 {
 		try {
 			c3 = Class.forName("com.imooc.reflect.Foo");
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		System.out.println(c2 == c3);
@@ -38,10 +38,10 @@ public class ClassDemo1 {
 			Foo foo = (Foo) c1.newInstance();// 需要有无参数的构造方法
 			foo.print();
 		} catch (InstantiationException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} catch (IllegalAccessException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 

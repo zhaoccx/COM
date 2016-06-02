@@ -46,7 +46,7 @@ public class View {
 						System.out.println(go.getId() + ",ÐÕÃû£º" + go.getUser_name());
 					}
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 

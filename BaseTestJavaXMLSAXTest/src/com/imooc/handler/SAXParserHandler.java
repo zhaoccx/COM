@@ -24,7 +24,7 @@ public class SAXParserHandler extends DefaultHandler {
 	 */
 	@Override
 	public void startDocument() throws SAXException {
-		// TODO Auto-generated method stub
+		
 		super.startDocument();
 		System.out.println("SAX解析开始");
 	}
@@ -34,7 +34,7 @@ public class SAXParserHandler extends DefaultHandler {
 	 */
 	@Override
 	public void endDocument() throws SAXException {
-		// TODO Auto-generated method stub
+		
 		super.endDocument();
 		System.out.println("SAX解析结束");
 	}
@@ -93,7 +93,7 @@ public class SAXParserHandler extends DefaultHandler {
 
 	@Override
 	public void characters(char[] ch, int start, int length) throws SAXException {
-		// TODO Auto-generated method stub
+		
 		super.characters(ch, start, length);
 		value = new String(ch, start, length);
 		if (!value.trim().equals("")) {

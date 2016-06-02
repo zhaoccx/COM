@@ -43,7 +43,7 @@ public class ServerThread extends Thread {
 			pw.write("欢迎您！");
 			pw.flush();// 调用flush()方法将缓冲输出
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} finally {
 			// 关闭资源

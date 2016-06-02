@@ -10,7 +10,7 @@ public class DisDemo {
 	 * @param args
 	 */
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
+		
 		String file = "demo/dos.dat";
 		IOUtil.printHex(file);
 		DataInputStream dis = new DataInputStream(new FileInputStream(file));
